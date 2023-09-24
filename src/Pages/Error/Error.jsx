@@ -1,9 +1,11 @@
+import Navbar from "../../Header/Navbar";
 import "./error.css";
 import { Link } from "react-router-dom";
 const Error = () => {
   return (
     <div>
-      <h3 className="page-tittle">404 NOT FOUND</h3>
+      <Navbar></Navbar>
+      <h3 className="page-tittle text-center text-3xl font-bold">404 NOT FOUND</h3>
 
       <div className="main-container">
         <div className="image-box">

@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
 const HomeCard = ({item}) => {
      const {id,cardBg,category,categoryBg,categoryImage,color,title} = item
-     console.log(color);
   return (
     <div>
-      <div className="flex cursor-pointer h-auto flex-col rounded-xl border"  style={{ backgroundColor: `${cardBg}`}}>
+     <Link to={`/donationdetails/${id}`}>
+     <div className="flex cursor-pointer h-auto flex-col rounded-xl border"  style={{ backgroundColor: `${cardBg}`}}>
         <div className="rounded-xl text-white">
           <img src={categoryImage} className="w-full"/>
         </div>
@@ -21,6 +23,7 @@ const HomeCard = ({item}) => {
         </div>
 
       </div>
+      </Link>
     </div>
   );
 };
