@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div a.active {
+  color: red;
+  border-bottom: 2px;
+  text-decoration: underline;
+}
