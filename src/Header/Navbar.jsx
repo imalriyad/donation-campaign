@@ -11,20 +11,20 @@ const Navbar = () => {
             </span>
             <ul className="items-center md:gap-8 flex font-medium">
               <NavLink to={"/"}>
-                <li className="block p-1 font-sans md:text-lg text-sm leading-normal">
+                <li className="block p-1 font-sans md:text-lg  leading-normal">
                   Home
                 </li>
               </NavLink>
 
               <NavLink to={'/donation'}>
-                <li className="block p-1 font-sans text-sm  leading-normal md:text-lg ">
+                <li className="block p-1 font-sans  leading-normal md:text-lg ">
                 Donation
                 </li>
               </NavLink>
 
               <NavLink to={'/statistics'}>
                 {" "}
-                <li className="block p-1 font-sans md:text-lg text-sm leading-normal">
+                <li className="block p-1 font-sans md:text-lg  leading-normal">
                   Statistics
                 </li>
               </NavLink>
