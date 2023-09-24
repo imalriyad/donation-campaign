@@ -1,135 +1,134 @@
 [
-    {
-      "id": 1,
-      "title": "Support Education for Underprivileged Children",
-      "description": "Help us provide quality education to underprivileged children in our community. Your generous donation will go towards textbooks, school supplies, and educational resources.",
-      "category": "Education",
-      "categoryBg": "#0052FF33",
-      "cardBg": "#0052FF26",
-      "color": "black",
-      "price": 1000,
-      "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
-    },
-    {
-      "id": 2,
-      "title": "Warm Clothing Drive for Winter",
-      "description": "Join our campaign to provide warm clothing to those in need during the winter months. Your donation will help us purchase coats, gloves, and blankets for the homeless and less fortunate.",
-      "category": "Clothing",
-      "categoryBg": "#79C23F33",
-      "cardBg": "#79C23F26",
-      "color": "white",
-      "price": 500,
-      "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
-    },
-    {
-      "id": 3,
-      "title": "Support Food Bank and Hunger Relief",
-      "description": "Join us in the fight against hunger by contributing to our food bank and hunger relief campaign. Your donation will help us provide nutritious meals to families facing food insecurity.",
-      "category": "Food",
-      "categoryBg": "#F8714733",
-      "cardBg": "#F8714726",
-      "color": "white",
-      "price": 750,
-      "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
-    },
-    {
-      "id": 4,
-      "title": "Healthcare Access for Vulnerable Communities",
-      "description": "Make a difference in the lives of vulnerable communities by supporting our healthcare access campaign. Your donation will fund medical clinics, vaccinations, and essential healthcare services.",
-      "category": "Health",
-      "categoryBg": "#FF444A33",
-      "cardBg": "#FF444A26",
-      "color": "black",
-      "price": 2000,
-      "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
-    },
-    {
-      "id": 5,
-      "title": "Empower Youth with Quality Education",
-      "description": "Join us in empowering youth through quality education initiatives. Your generous donation will help us provide scholarships, mentorship programs, and career guidance to young students.",
-      "category": "Education",
-      "categoryBg": "#0052FF33",
-      "cardBg": "#0052FF26",
-      "color": "black",
-      "price": 1500,
-      "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
-    },
-    {
-      "id": 6,
-      "title": "Clothing for Homeless Shelters",
-      "description": "Support homeless shelters and provide clothing to those without a home. Your donation will ensure that individuals in shelters have access to clean clothing and personal hygiene items.",
-      "category": "Clothing",
-      "categoryBg": "#79C23F33",
-      "cardBg": "#79C23F26",
-      "color": "blue",
-      "price": 800,
-      "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
-    },
-    {
-      "id": 7,
-      "title": "Nutrition and Meals for Needy Families",
-      "description": "Help us provide nutrition and meals to needy families struggling with food insecurity. Your donation will enable us to distribute food packages and hot meals to those in need.",
-      "category": "Food",
-      "categoryBg": "#F8714733",
-      "cardBg": "#F8714726",
-      "color": "green",
-      "price": 1200,
-      "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
-    },
-    {
-      "id": 8,
-      "title": "Healthcare Access for Underserved Areas",
-      "description": "Support our mission to bring healthcare access to underserved areas. Your donation will fund mobile clinics, medical outreach, and health education programs for remote communities.",
-      "category": "Health",
-      "categoryBg": "#FF444A33",
-      "cardBg": "#FF444A26",
-      "color": "black",
-      "price": 2500,
-      "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
-    },
-    {
-      "id": 9,
-      "title": "Books for Educational Empowerment",
-      "description": "Contribute to our campaign to provide books for educational empowerment. Your donation will help us build libraries, distribute books, and promote literacy among disadvantaged communities.",
-      "category": "Education",
-      "categoryBg": "#0052FF33",
-      "cardBg": "#0052FF26",
-      "color": "black",
-      "price": 1800,
-      "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
-    },
-    {
-      "id": 10,
-      "title": "Warm Winter Clothing for the Needy",
-      "description": "Join us in our mission to keep people warm during the winter. Your donation will go towards purchasing warm clothing, blankets, and heaters for those without shelter.",
-      "category": "Clothing",
-      "categoryBg": "#79C23F33",
-      "cardBg": "#79C23F26",
-      "color": "white",
-      "price": 600,
-      "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
-    },
-    {
-      "id": 11,
-      "title": "Emergency Food Relief for Families",
-      "description": "Support our emergency food relief campaign for families in crisis. Your donation will help us provide immediate food assistance to those facing unexpected hardships.",
-      "category": "Food",
-      "categoryBg": "#F8714733",
-      "cardBg": "#F8714726",
-      "color": "white",
-      "price": 900,
-      "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
-    },
-    {
-      "id": 12,
-      "title": "Medical Supplies for Health Clinics",
-      "description": "Help us ensure access to medical care by donating to our medical supplies campaign. Your contribution will provide essential medical supplies and equipment to healthcare clinics.",
-      "category": "Health",
-      "categoryBg": "#FF444A33",
-      "cardBg": "#FF444A26",
-      "color": "black",
-      "price": 3000,
-      "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Support Children's Education in Poverty ",
+    "description": "Help us provide quality education to underprivileged children in our community. Your generous donation will go towards textbooks, school supplies, and educational resources.",
+    "category": "Education",
+    "categoryBg": "#0052FF33",
+    "cardBg": "#0052FF26",
+    "color": "#0052FF",
+    "price": 1000,
+    "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
+  },
+  {
+    "id": 2,
+    "title": "Warm Clothing Drive for Winter",
+    "description": "Join our campaign to provide warm clothing to those in need during the winter months. Your donation will help us purchase coats, gloves, and blankets for the homeless and less fortunate.",
+    "category": "Clothing",
+    "categoryBg": "#79C23F33",
+    "cardBg": "#79C23F26",
+    "color": "#79C23F",
+    "price": 500,
+    "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
+  },
+  {
+    "id": 3,
+    "title": "Support Food Bank and Hunger Relief",
+    "description": "Join us in the fight against hunger by contributing to our food bank and hunger relief campaign. Your donation will help us provide nutritious meals to families facing food insecurity.",
+    "category": "Food",
+    "categoryBg": "#F8714733",
+    "cardBg": "#F8714726",
+    "color": "#F87147",
+    "price": 750,
+    "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
+  },
+  {
+    "id": 4,
+    "title": "Healthcare for Vulnerable Communities",
+    "description": "Make a difference in the lives of vulnerable communities by supporting our healthcare access campaign. Your donation will fund medical clinics, vaccinations, and essential healthcare services.",
+    "category": "Health",
+    "categoryBg": "#FF444A33",
+    "cardBg": "#FF444A26",
+    "color": "#FF444A",
+    "price": 2000,
+    "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
+  },
+  {
+    "id": 5,
+    "title": "Empower Youth with Quality Education",
+    "description": "Join us in empowering youth through quality education initiatives. Your generous donation will help us provide scholarships, mentorship programs, and career guidance to young students.",
+    "category": "Education",
+    "categoryBg": "#0052FF33",
+    "cardBg": "#0052FF26",
+    "color": "#0052FF",
+    "price": 1500,
+    "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
+  },
+  {
+    "id": 6,
+    "title": "Clothing for Homeless Shelters",
+    "description": "Support homeless shelters and provide clothing to those without a home. Your donation will ensure that individuals in shelters have access to clean clothing and personal hygiene items.",
+    "category": "Clothing",
+    "categoryBg": "#79C23F33",
+    "cardBg": "#79C23F26",
+    "color": "#79C23F",
+    "price": 800,
+    "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
+  },
+  {
+    "id": 7,
+    "title": "Nutrition and Meals for Needy Families",
+    "description": "Help us provide nutrition and meals to needy families struggling with food insecurity. Your donation will enable us to distribute food packages and hot meals to those in need.",
+    "category": "Food",
+    "categoryBg": "#F8714733",
+    "cardBg": "#F8714726",
+    "color": "#F87147",
+    "price": 1200,
+    "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
+  },
+  {
+    "id": 8,
+    "title": "Healthcare for Underserved Areas",
+    "description": "Support our mission to bring healthcare access to underserved areas. Your donation will fund mobile clinics, medical outreach, and health education programs for remote communities.",
+    "category": "Health",
+    "categoryBg": "#FF444A33",
+    "cardBg": "#FF444A26",
+    "color": "#FF444A",
+    "price": 2500,
+    "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
+  },
+  {
+    "id": 9,
+    "title": "Books for Educational Empowerment",
+    "description": "Contribute to our campaign to provide books for educational empowerment. Your donation will help us build libraries, distribute books, and promote literacy among disadvantaged communities.",
+    "category": "Education",
+    "categoryBg": "#0052FF33",
+    "cardBg": "#0052FF26",
+    "color": "#0052FF",
+    "price": 1800,
+    "categoryImage": "https://i.ibb.co/2MwRkR4/Education.png"
+  },
+  {
+    "id": 10,
+    "title": "Warm Winter Clothing for the Needy",
+    "description": "Join us in our mission to keep people warm during the winter. Your donation will go towards purchasing warm clothing, blankets, and heaters for those without shelter.",
+    "category": "Clothing",
+    "categoryBg": "#79C23F33",
+    "cardBg": "#79C23F26",
+    "color": "#79C23F",
+    "price": 600,
+    "categoryImage": "https://i.ibb.co/jJBS8BZ/Clothing.png"
+  },
+  {
+    "id": 11,
+    "title": "Emergency Food Relief for Families",
+    "description": "Support our emergency food relief campaign for families in crisis. Your donation will help us provide immediate food assistance to those facing unexpected hardships.",
+    "category": "Food",
+    "categoryBg": "#F8714733",
+    "cardBg": "#F8714726",
+    "color": "#F87147",
+    "price": 900,
+    "categoryImage": "https://i.ibb.co/CtB7jf5/Food.png"
+  },
+  {
+    "id": 12,
+    "title": "Medical Supplies for Health Clinics",
+    "description": "Help us ensure access to medical care by donating to our medical supplies campaign. Your contribution will provide essential medical supplies and equipment to healthcare clinics.",
+    "category": "Education",
+    "categoryBg": "#FF444A33",
+    "cardBg": "#FF444A26",
+    "color": "#FF444A",
+    "price": 3000,
+    "categoryImage": "https://i.ibb.co/9cZnv1F/Health.png"
+  }
+]

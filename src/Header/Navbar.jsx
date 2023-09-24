@@ -11,7 +11,7 @@ const Navbar = () => {
             </span>
             <ul className="items-center md:gap-8 flex font-medium">
               <NavLink to={"/"}>
-                <li className="block p-1 font-sans md:text-lg  leading-normal">
+                <li className="block p-1 font-sans md:text-lg  leading-normal ">
                   Home
                 </li>
               </NavLink>

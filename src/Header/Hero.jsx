@@ -4,7 +4,7 @@ const Hero = () => {
       <div
         className=" hero h-[65vh] bg-center bg-cover"
         style={{
-          backgroundImage: "url(https://i.ibb.co/mDyj6n5/herobg.png)",
+          backgroundImage: "url(https://i.ibb.co/mzh3f2C/herobg.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-80 bg-[#ffffffd9]"></div>
