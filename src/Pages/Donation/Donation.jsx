@@ -34,10 +34,9 @@ const Donation = () => {
       {donated?.length > 4 && (
         <div className="text-center my-10 mx-auto">
           <button
-            onClick={() => setSeeAll(!isSeeAll)}
-            className="btn btn-accent text-white"
-          >
-            {isSeeAll ? "See Less" : "See All"}
+            onClick={() => setSeeAll(true)}
+            className={`btn btn-accent text-white ${isSeeAll?'hidden':''}`}
+          > See All
           </button>
         </div>
       )}
