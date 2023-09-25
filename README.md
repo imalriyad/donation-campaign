@@ -1,7 +1,5 @@
 # This is a react router Dom project about Donation campaign
 
-## There are several aspects of the project that you will undoubtedly enjoy.
-
 ## Poejct Features
 
 - #### Search By Categories :
