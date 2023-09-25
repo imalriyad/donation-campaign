@@ -75,7 +75,7 @@ const Chart = () => {
         </ResponsiveContainer>
       )}
 
-      <div className="md:flex gap-10 max-w-screen-md items-center">
+      <div className="md:flex gap-16 max-w-screen-md items-center">
         <h1 className="font-medium">
           {" "}
           Your Donation{" "}
