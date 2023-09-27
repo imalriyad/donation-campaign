@@ -1,19 +1,21 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
-import { PieChart, Pie,Tooltip ,Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Tooltip, Cell, ResponsiveContainer } from "recharts";
 
 const Chart = () => {
-  const [storedData, setStoredData] = useState([]);
-  const [chartData, setChartData] = useState([]);
-  
+  const [chartData, setChartData] = useState([
+    { name: "Your Donation", value: 0 },
+    { name: "Total Donation", value: 100 },
+  ]);
   useEffect(() => {
     const dataFromLocalStorage = JSON.parse(localStorage.getItem("stored"));
-    setStoredData(dataFromLocalStorage);
-    
     if (dataFromLocalStorage) {
-      const parcentage = Math.round((dataFromLocalStorage.length / 12) * 100)
-      const remaining = Math.round((100 - parcentage));
-      setChartData([{name:'Your Donation' , value: parcentage }, { name:'Total Donation', value: remaining }]);
+      const parcentage = Math.round((dataFromLocalStorage.length / 12) * 100);
+      const remaining = Math.round(100 - parcentage);
+      setChartData([
+        { name: "Your Donation", value: parcentage },
+        { name: "Total Donation", value: remaining },
+      ]);
     }
   }, []);
 
@@ -48,32 +50,28 @@ const Chart = () => {
 
   return (
     <div>
-      {storedData === null ? (
-        <h1 className="md:text-4xl text-2xl font-bold my-20">Opss! You have not Donated yet</h1>
-      ) : (
-        <ResponsiveContainer width={320} height={400}>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={chartData}
-              cx="50%"
-              cy="50%"
-              labelLine={false}
-              label={renderCustomizedLabel}
-              outerRadius={120}
-              fill="#FF444A"
-              dataKey="value"
-            >
-              {chartData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-            <Tooltip/>
-          </PieChart>
-        </ResponsiveContainer>
-      )}
+      <ResponsiveContainer width={320} height={400}>
+        <PieChart width={400} height={400}>
+          <Pie
+            data={chartData}
+            cx="50%"
+            cy="50%"
+            labelLine={false}
+            label={renderCustomizedLabel}
+            outerRadius={120}
+            fill="#FF444A"
+            dataKey="value"
+          >
+            {chartData.map((entry, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
+            ))}
+          </Pie>
+          <Tooltip />
+        </PieChart>
+      </ResponsiveContainer>
 
       <div className="md:flex gap-16 max-w-screen-md items-center">
         <h1 className="font-medium">
